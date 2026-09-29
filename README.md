@@ -13,8 +13,13 @@ Teniendo en cuenta que un jugador promedio dedica entre 7 y 10 horas semanales y
 
 Para poder evaluar las combinaciones y calcular la ruta óptima sin que el usuario introduzca listas de habilidades o datos manualmente, la información sobre la estructura del árbol así como el contenido, las dependencias y las relaciones de los nodos se obtienen de volcados de datos en formato JSON extraídos de la versión 1.12 oficial del juego que se encuentran en repositorios públicos de GitHub.
 
+### Repositorio con los datos necesarios
+https://github.com/iamadagostino/wow-classic-talent-calculator/blob/master/assets/data/talent-data.json
+
 ## Lógica de negocio
 El problema radica en la necesidad de determinar con antelación la ruta de puntos de habilidades óptima para una clase y un subrol en concreto, calculando y evaluando secuencias de progresión que maximicen el rendimiento del personaje según el presupuesto de niveles disponible sin atravesar valles críticos de debilidad que desemboquen en un bloqueo para el jugador.
 
 ## Documentación adicional
 La configuración establecida para este objetivo se encuentra en este [enlace](./docs/configuracion.md)
+
+[Planificación, Personas, HUs y Milestones](./docs/planificacion.md)
