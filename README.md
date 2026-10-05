@@ -17,7 +17,7 @@ Para poder evaluar las combinaciones y calcular la ruta óptima sin que el usuar
 https://github.com/iamadagostino/wow-classic-talent-calculator/blob/master/assets/data/talent-data.json
 
 ## Lógica de negocio
-El problema radica en la necesidad de determinar con antelación la ruta de puntos de habilidades óptima para una clase y un subrol en concreto, calculando y evaluando secuencias de progresión que maximicen el rendimiento del personaje según el presupuesto de niveles disponible sin atravesar valles críticos de debilidad que desemboquen en un bloqueo para el jugador.
+El problema radica en la necesidad de determinar con antelación una ruta de puntos de habilidades viable y eficiente para una clase y especialización concretas, calculando y evaluando secuencias de progresión que maximicen la viabilidad del personaje según el presupuesto de niveles disponible sin atravesar valles críticos de debilidad.
 
 Dado que el juego impone dependencias para talentos y umbrales por fila (5 puntos para desbloquear la siguiente fila) sobre el árbol de habilidades, el sistema actúa como motor de cálculo y validación, siendo responsabilidad del desarrollador diseñar la función heurística de evaluación que decida entre múltiples caminos legales válidos. 
 
