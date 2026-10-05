@@ -2,7 +2,7 @@
 ## Cliente
 Un jugador habitual de World Of Warcraft Clásico con tiempo o conocimientos limitados
 
-![tarjeta_de_rol](./docs/rolCliente.jpg)
+[Definición detallada de clientes tipo](./docs/clientes.md)
 
 ## Descripción del problema
 Muchos jugadores de WoW Classic inician una partida con una clase en mente, pero cuando llega el momento de subir de nivel y elegir una habilidad de las que hay, la cosa se complica: que si esta es buena, que si la otra es mejor pero en casos concretos, que si esta me da beneficios instantáneos... , un comedero de cabeza en general.
@@ -22,4 +22,8 @@ El problema radica en la necesidad de determinar con antelación la ruta de punt
 ## Documentación adicional
 La configuración establecida para este objetivo se encuentra en este [enlace](./docs/configuracion.md)
 
-[Planificación, Personas, HUs y Milestones](./docs/planificacion.md)
+La imagen correspondiente al juego de rol hecho en clase: [Tarjeta de rol](.docs/rolCliente.jpg)
+
+[User-journeys](.docs/journeys.md)
+[Historias de Usuario](.docs/historias.md)
+[Milestones](./docs/milestones.md)

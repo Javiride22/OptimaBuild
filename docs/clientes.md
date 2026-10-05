@@ -1,0 +1,4 @@
+# Descripción de clientes
+David es un universitario que juega habitualmente al World of Warcraft Classic en su ordenador de casa unas 10h semanales aprovechando el tiempo libre que tiene, ya ha alcanzado nivel 30 con la clase de mago y quiere saber si las habilidades que ha escogido le sirven para no atascarse en la progresión o tener que gastar la moneda del juego para reiniciar talentos.
+
+Alejandro es un estudiante y jugador novato que comienza por primera vez una clase en World of Warcraft Classic. Al llegar al nivel 10 y desbloquear su primer punto de talento, se encuentra abrumado por la cantidad de opciones repartidas en 3 árboles y filas jerárquicas. Desconoce las sinergias del juego y necesita una guía clara nivel a nivel para no cometer errores tempranos que le obliguen a abandonar el personaje.
