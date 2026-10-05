@@ -9,7 +9,6 @@ Establecer un vocabulario común (lenguaje ubicuo) mediante Domain-Driven Design
 
 * Entidades y Objetos Valor: Clases base del dominio modeladas a partir de los conceptos de [HU001] (Clase, Árbol/Rama de talentos, Nodo/Habilidad y Restricciones de dependencia).
 * Cargador e ingesta de datos: Módulo responsable de leer y transformar los datos estructurados de un archivo en formato JSON en las estructuras del dominio, garantizando la integridad de tipos.
-* Documentación del diseño: Documento en docs/ que justifica el modelo de dominio elegido, la separación entre entidades y objetos valor, y cómo cada concepto emana estrictamente del problema expresado en [HU001].
 * Alcance delimitado: El código todavía no ejecuta optimizaciones, cálculos de rutas ni lógica de negocio; su función se limita a proveer la estructura tipada y validada necesaria para el desarrollo posterior.
 
 
@@ -35,7 +34,6 @@ Demostrar que el modelo de dominio construido en el hito anterior permite ejecut
   - Validación de dependencias de habilidades predecesoras.
   - Identificación de los nodos que quedan legalmente elegibles para el siguiente paso.
 * Batería de pruebas automatizadas: Suite de tests unitarios que comprueban de forma determinista el comportamiento de la lógica sobre casos límite (asignaciones legales, intentos de saltar filas sin puntos suficientes y rutas que omiten talentos requeridos).
-* Documentación técnica: Justificación del caso de uso implementado, las aserciones probadas y las instrucciones para ejecutar los tests en local.
 
 
 **Criterio de validez**

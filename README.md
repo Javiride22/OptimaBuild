@@ -30,12 +30,8 @@ Una ruta se evalúa como superior a otra aplicando los siguientes **criterios ba
 5. **Alineación con el rol declarado:** Maximizar el peso de los nodos pertenecientes a la rama primaria asignada al rol (por ejemplo, daño sostenido frente a soporte), evaluando si el conjunto de habilidades activadas al nivel 60 concentra al menos el grueso del presupuesto de 51 puntos en la especialización objetivo.
 
 ## Documentación adicional
-La configuración establecida para el objetivo 0 se encuentra en este [enlace](./docs/configuracion.md)
-
-La imagen correspondiente al juego de rol hecho en clase: [Tarjeta de rol](./docs/rolCliente.jpg)
-
-[User-journeys](./docs/journeys.md)
-
-[Historias de Usuario](./docs/historias.md)
-
-[Milestones](./docs/milestones.md)
+* [Configuración establecida para el objetivo 0](./docs/configuracion.md)
+* [Imagen correspondiente al juego de rol hecho en clase](./docs/rolCliente.jpg)
+* [User-journeys](./docs/journeys.md)
+* [Historias de Usuario](./docs/historias.md)
+* [Milestones](./docs/milestones.md)
