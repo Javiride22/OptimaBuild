@@ -2,42 +2,27 @@
 ## Milestone 0: Modelado principal del problema
 **Objetivo**
 
-Establecer un vocabulario común (lenguaje ubicuo) mediante Domain-Driven Design (DDD) que traduzca el problema del jugador a una representación formal en código, sirviendo como infraestructura indispensable para que cualquier desarrollador pueda implementar la lógica de cálculo en los siguientes hitos.
+Establecer la estructura básica de código que represente formalmente los conceptos del problema de progresión inicial que sufre Alejandro en [HU001], sirviendo como la base mínima para que cualquier desarrollador pueda trabajar sobre ella en los hitos posteriores.
 
+**Producto**
 
-**Qué se entrega (PMV Interno)**
-
-* Entidades y Objetos Valor: Clases base del dominio modeladas a partir de los conceptos de [HU001] (Clase, Árbol/Rama de talentos, Nodo/Habilidad y Restricciones de dependencia).
-* Cargador e ingesta de datos: Módulo responsable de leer y transformar los datos estructurados de un archivo en formato JSON en las estructuras del dominio, garantizando la integridad de tipos.
-* Alcance delimitado: El código todavía no ejecuta optimizaciones, cálculos de rutas ni lógica de negocio; su función se limita a proveer la estructura tipada y validada necesaria para el desarrollo posterior.
-
+Módulo o biblioteca de código fuente empaquetado conforme a las convenciones estándar de distribución del lenguaje seleccionado, que permita instanciar y acceder a las estructuras del árbol de talentos a partir de los datos locales del dataset.
 
 **Criterio de validez**
 
-El hito se considera válido porque:
-* El paquete se instala en el entorno de desarrollo sin dependencias de infraestructura externa.
-* Todo concepto modelado en el código tiene trazabilidad directa y justificada con [HU001].
-* Se verifica que la ingesta genera las instancias del dominio sin errores de tipo, campos vacíos ni inconsistencias en los prerrequisitos entre nodos.
+El hito se considera válido si el paquete se instala en el entorno de desarrollo sin dependencias externas y si supera una comprobación automatizada que demuestra que cumple con lo especificado en [HU001].
 
 ##
 
 ## Milestone 1: Implementación de primera lógica
 **Objetivo**
 
-Demostrar que el modelo de dominio construido en el hito anterior permite ejecutar y validar de principio a fin la primera lógica de negocio del sistema, comprobando de forma automatizada las restricciones de viabilidad de una selección de talentos según los requisitos de [HU002].
+Establecer la lógica del sistema para certificar de forma determinista la legalidad y continuidad de asignaciones previas que permita resolver el problema de David en [HU002].
 
+**Producto**
 
-**Qué se entrega**
-
-* Lógica de negocio verificable: Módulo que implementa la lógica mínima necesaria para evaluar un conjunto de talentos asignados frente a las reglas del juego:
-  - Validación del umbral de puntos acumulados por rama.
-  - Validación de dependencias de habilidades predecesoras.
-  - Identificación de los nodos que quedan legalmente elegibles para el siguiente paso.
-* Batería de pruebas automatizadas: Suite de tests unitarios que comprueban de forma determinista el comportamiento de la lógica sobre casos límite (asignaciones legales, intentos de saltar filas sin puntos suficientes y rutas que omiten talentos requeridos).
-
+Módulo o biblioteca de software empaquetado según los estándares del entorno de desarrollo, que incorpora el motor de validación de reglas sobre las estructuras del problema e integra una batería de pruebas automatizadas.
 
 **Criterio de validez**
 
-El hito se considera válido porque:
-* Resuelve de extremo a extremo el flujo funcional asociado a [HU002] utilizando exclusivamente las entidades del dominio creadas en el Milestone 0.
-* Todas las pruebas automatizadas se ejecutan de manera satisfactoria sin dependencias de red ni servicios externos, validando la lógica contra datos estructurados de prueba.
+El hito se alcanza cuando la batería de pruebas automatizadas del paquete se ejecuta con éxito, validando exhaustivamente los límites de las reglas de negocio descritas en [HU002].

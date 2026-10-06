@@ -1,6 +1,10 @@
 # Historias de Usuario
-## HU001 - No se si las habilidades elegidas hasta ahora son viables
-Como jugador de WoW Classic que lleva 40h de juego y con nivel 30 con 21 puntos de habilidad ya asignados a talentos, no tengo forma de saber si las elecciones que llevo hechas respetan las restricciones jerárquicas del árbol de habilidades ni que talentos puedo desbloquear a continuación, por lo que temo llegar a un bloqueo de progresión tras decenas de horas y tener que reiniciar el personaje o gastar oro en reasignaciones.
+## HU001 - No se como empezar a elegir
+Como jugador novato (Alejandro) que acaba de alcanzar el nivel 10 y recibe su primer punto de talento ante tres árboles vacíos, no tengo criterio para saber qué rama o talento inicial seleccionar según mi rol objetivo, por lo que temo cometer un error temprano irreversible que lastre a mi personaje durante toda la partida.
 
-## HU002 - No se como empezar a elegir
-Como jugador novato que alcanza el nivel 10 y recibe su primer punto de talento, no tengo forma de saber cuál es la secuencia óptima para invertir mis puntos nivel a nivel según el rol que busco, por lo que suelo dispersar puntos entre las tres ramas y me encuentro con fases críticas durante la partida donde me cuesta avanzar.
+**Jornada relacionada:** [Jornada 1 (Alejandro)](./journeys.md)
+
+## HU002 - No se si las habilidades elegidas hasta ahora son viables
+Como jugador de habitual (David) con nivel 30 con 21 puntos de habilidad ya asignados a talentos, no tengo forma de comprobar si las decisiones previas que he tomado respetan las restricciones jerárquicas necesarias para acceder a las habilidades clave de mi rol, por lo que temo llegar a un bloqueo de progresión tras decenas de horas y tener que reiniciar el personaje o gastar oro en reasignaciones.
+
+**Jornada relacionada:** [Jornada 2 (David)](./journeys.md)
