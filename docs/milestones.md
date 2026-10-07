@@ -1,28 +1,16 @@
 # Milestones
 ## Milestone 0: Modelado principal del problema
-**Objetivo**
+Es un hito interno centrado exclusivamente en abordar el problema inicial de Alejandro en [HU001].
 
-Establecer la estructura básica de código que represente formalmente los conceptos del problema de progresión inicial que sufre Alejandro en [HU001], sirviendo como la base mínima para que cualquier desarrollador pueda trabajar sobre ella en los hitos posteriores.
+A partir del análisis de la necesidad descrita en [HU001], los problemas que surjan para representar el dominio se descomponen en issues que guían la modelización del problema en el lenguaje de programación elegido, incorporando las estructuras mínimas necesarias para representar y modelar dicho contexto.
 
-**Producto**
-
-Módulo o biblioteca de código fuente empaquetado conforme a las convenciones estándar de distribución del lenguaje seleccionado, que permita instanciar y acceder a las estructuras del árbol de talentos a partir de los datos locales del dataset.
-
-**Criterio de validez**
-
-El hito se considera válido si el paquete se instala en el entorno de desarrollo sin dependencias externas y si supera una comprobación automatizada que demuestra que cumple con lo especificado en [HU001].
+El hito se considerará alcanzado si se comprueba la trazabilidad completa del proceso, es decir, los issues proceden directamente del problema formulado en [HU001] y en su journey y cada fragmento de código resuelve uno de dichos issues. Cada commit enlaza el issue del que procede, evidenciando un progreso justificado en el modelado.
 
 ##
 
 ## Milestone 1: Implementación de primera lógica
-**Objetivo**
+Es un hito interno que continúa el trabajo sobre el problema de [HU001] a partir de la base obtenida en el hito anterior.
 
-Establecer la lógica del sistema para certificar de forma determinista la legalidad y continuidad de asignaciones previas que permita resolver el problema de David en [HU002].
+Sobre lo trabajado en el milestone 0, los aspectos necesarios para comprobar las restricciones y reglas del problema de [HU001] se dividen en problemas atómicos planteados como issues. Dichos issues guían la introducción de la lógica de negocio mínima indispensable para resolver la incertidumbre de Alejandro, incorporando comprobaciones automatizadas que verifican el comportamiento esperado tanto en secuencias válidas como en situaciones no permitidas.
 
-**Producto**
-
-Módulo o biblioteca de software empaquetado según los estándares del entorno de desarrollo, que incorpora el motor de validación de reglas sobre las estructuras del problema e integra una batería de pruebas automatizadas.
-
-**Criterio de validez**
-
-El hito se alcanza cuando la batería de pruebas automatizadas del paquete se ejecuta con éxito, validando exhaustivamente los límites de las reglas de negocio descritas en [HU002].
+El hito se considerará alcanzado si se ejecutan y superan con éxito las comprobaciones automatizadas asociadas a las reglas del problema en una sola orden y si se mantiene la trazabilidad metodológica completa.
