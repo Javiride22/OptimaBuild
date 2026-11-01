@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'talento'
+require_relative 'rama_especializacion' # Rama del árbol de talentos
 
 module OptimaBuild
   class RamaEspecializacion
