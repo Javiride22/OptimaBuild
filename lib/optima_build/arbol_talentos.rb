@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'rama_especializacion' # Quitamos en comentario de git
+require_relative 'rama_especializacion' 
 
 module OptimaBuild
   class ArbolTalentos
