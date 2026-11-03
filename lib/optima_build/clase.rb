@@ -2,7 +2,7 @@
 
 module OptimaBuild
   class Clase
-    def initialize(nombre:, arbol_talentos:)
+    def initialize(nombre:, ramas:)
       @nombre = nombre
       @ramas = ramas
     end
