@@ -4,7 +4,7 @@ module OptimaBuild
   class Clase
     def initialize(nombre:, arbol_talentos:)
       @nombre = nombre
-      @arbol_talentos = arbol_talentos
+      @ramas = ramas
     end
   end
 end
