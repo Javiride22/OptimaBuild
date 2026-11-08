@@ -2,9 +2,6 @@
 
 module OptimaBuild
   class Clase
-    def initialize(nombre:, ramas:)
-      @nombre = nombre
-      @ramas = ramas
-    end
+    attr_reader :nombre, :ramas
   end
 end
