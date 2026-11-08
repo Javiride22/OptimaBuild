@@ -2,9 +2,6 @@
 
 module OptimaBuild
   class RamaEspecializacion
-    def initialize(nombre:, talentos:)
-      @nombre = nombre
-      @talentos = talentos
-    end
+    attr_reader :nombre, :talentos
   end
 end
