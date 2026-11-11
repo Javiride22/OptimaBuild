@@ -29,23 +29,6 @@ Una ruta se evalúa como superior a otra aplicando los siguientes **criterios ba
 4. **Respeto estricto del presupuesto por nivel:** Garantizar que en cada nivel individual (del 10 al 60) la asignación realizada es válida tanto respecto al umbral acumulado de rama como a las dependencias de habilidades previas, asegurando que no existan retrocesos ni estados temporales ilegales.
 5. **Alineación con el rol declarado:** Maximizar el peso de los nodos pertenecientes a la rama primaria asignada al rol (por ejemplo, daño sostenido frente a soporte), evaluando si el conjunto de habilidades activadas al nivel 60 concentra al menos el grueso del presupuesto de 51 puntos en la especialización objetivo.
 
-## Lenguaje de programación
-
-El proyecto se implementa en **Ruby**.
-
-La elección se basa en las necesidades del dominio que se está modelando. OptimaBuild trabaja principalmente con entidades y objetos que mantienen un conjunto reducido de datos y deben garantizar determinadas invariantes durante su creación y relación entre ellos.
-
-Ruby permite representar este modelo de forma directa mediante clases y constructores con argumentos nombrados, facilitando que cada objeto reciba únicamente la información necesaria y pueda validar su estado en el momento de crearse.
-
-Además, algunas características del lenguaje encajan directamente con decisiones tomadas en el modelo:
-
-- Los `Symbol` permiten representar valores cerrados del dominio, como los roles `:tanque`, `:sanador` y `:dps`.
-- Los `Hash` permiten indexar ramas, talentos y el progreso del personaje mediante sus identificadores, evitando búsquedas secuenciales y facilitando mantener una única correspondencia por identificador.
-- Las excepciones permiten impedir la creación de estados inválidos del dominio, como rangos de talento imposibles, niveles fuera de los límites permitidos o progresos incompatibles con la clase del personaje.
-- La sintaxis de Ruby permite expresar estas restricciones dentro de las propias clases del dominio sin requerir una infraestructura adicional.
-
-Por estas razones, Ruby permite mantener el modelo del dominio compacto y hacer explícitas sus reglas e invariantes, que constituyen el objetivo principal de este milestone.
-
 ## Documentación adicional
 * [Configuración establecida para el objetivo 0](./docs/configuracion.md)
 * [Imagen correspondiente al juego de rol hecho en clase](./docs/rolCliente.jpg)
