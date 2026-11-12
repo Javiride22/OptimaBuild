@@ -3,7 +3,7 @@
 module OptimaBuild
   class Talento
     attr_reader :nombre,
-                :descripcion,
+                :peso_rol,
                 :rango_maximo,
                 :fila,
                 :columna,
