@@ -2,6 +2,6 @@
 
 module OptimaBuild
   class EstadoPersonaje
-    attr_reader :nivel, :rol_objetivo, :progreso_talentos
+    attr_reader :nivel, :progreso_talentos
   end
 end
