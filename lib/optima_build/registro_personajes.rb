@@ -2,6 +2,6 @@
 
 module OptimaBuild
   class RegistroPersonajes
-    attr_reader :personajes, :estados_personajes
+    attr_reader :personajes
   end
 end
