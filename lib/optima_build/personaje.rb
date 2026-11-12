@@ -2,6 +2,6 @@
 
 module OptimaBuild
   class Personaje
-    attr_reader :nombre, :clase
+    attr_reader :nombre, :clase, :rol_objetivo
   end
 end
